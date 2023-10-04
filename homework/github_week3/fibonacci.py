@@ -5,6 +5,7 @@ It uses the formula for the nth term of the Fibonacci sequence
 and functionally decomposes the calculations.
 Fill in all the missing code in the functions and in main
 """
+import math
 import typing
 
 def get_input() -> int:
@@ -39,12 +40,30 @@ def power(num: int, n: int) -> int:
 
 def sqrt(num: int) -> float:
     """Returns the square root of num"""
-    pass
+    return math.sqrt(num)
 
 
 def main():
     """Main function"""
-    pass
+
+    # Bohdan
+    # num = get_input()
+    # print(n_fib_list = fibonacci_list(num))
+
+    # Victor
+    # print(n_fib_single = fibonacci_single(num))
+    # print(capital_phi = golden_section_num())
+
+
+    # Mykhailo part
+    # print(lowercase_phi = golden_section_reciprocal())
+    # print(power(num))
+ 
+
+    # Mukhailo Bronytskyi part
+    # print(sqrt(num))
+
+    return
 
 
 if __name__ == "__main__":
