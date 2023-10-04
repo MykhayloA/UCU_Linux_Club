@@ -9,42 +9,42 @@ import typing
 
 def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
-    pass
+    return
 
 
-def fibonacci_list(n: int) -> typing.List[int]:
-    """Returns a list of the first n Fibonacci numbers"""
-    pass
+# def fibonacci_list(n: int) -> typing.List[int]:
+#     """Returns a list of the first n Fibonacci numbers"""
+#     pass
 
 
-def fibonacci_single(n: int) -> int:
-    """Returns the nth Fibonacci number"""
-    pass
+# def fibonacci_single(n: int) -> int:
+#     """Returns the nth Fibonacci number"""
+#     pass
 
 
-def golden_section_num() -> float:
-    """Returns the golden section number (capital Phi)"""
-    pass
+# def golden_section_num() -> float:
+#     """Returns the golden section number (capital Phi)"""
+#     pass
 
 
-def golden_section_reciprocal() -> float:
-    """Returns the reciprocal of the golden section number (lowercase phi)"""
-    pass
+# def golden_section_reciprocal() -> float:
+#     """Returns the reciprocal of the golden section number (lowercase phi)"""
+#     pass
 
 
-def power(num: int, n: int) -> int:
-    """Raises num to the nth power"""
-    pass
+# def power(num: int, n: int) -> int:
+#     """Raises num to the nth power"""
+#     pass
 
 
-def sqrt(num: int) -> float:
-    """Returns the square root of num"""
-    pass
+# def sqrt(num: int) -> float:
+#     """Returns the square root of num"""
+#     pass
 
 
-def main():
-    """Main function"""
-    pass
+# def main():
+#     """Main function"""
+#     pass
 
 
 if __name__ == "__main__":
