@@ -6,7 +6,6 @@ and functionally decomposes the calculations.
 Fill in all the missing code in the functions and in main
 """
 import typing
-
 def get_input() -> int:
     """Gets input from the user and returns it as an integer"""
     pass
@@ -29,12 +28,16 @@ def golden_section_num() -> float:
 
 def golden_section_reciprocal() -> float:
     """Returns the reciprocal of the golden section number (lowercase phi)"""
-    pass
+    lowercase_phi = golden_section_num - 1
+    return lowercase_phi
+    #pass
 
 
 def power(num: int, n: int) -> int:
     """Raises num to the nth power"""
-    pass
+    num = num**n
+    return num
+    #pass
 
 
 def sqrt(num: int) -> float:
